@@ -1,0 +1,25 @@
+# Third-party dependencies and virtual environments
+.venv/
+venv/
+env/
+node_modules/
+
+# Local cache and temporary directories
+.pytest_cache/
+.cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+
+# Database migrations (Alembic auto-generated code can trigger false positives)
+alembic/versions/
+
+# Test suites (Prevents testing assertions or mock credentials from raising alarms)
+tests/
+test_*.py
+*_test.py
+
+# Build and deployment outputs
+build/
+dist/
+*.egg-info/

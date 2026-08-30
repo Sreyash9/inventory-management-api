@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+pythonenv/
+
+# Environment variables and secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# Testing and coverage
+.pytest_cache/
+.htmlcov/
+toml-test/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Databases and SQLite (if used locally)
+*.db
+*.sqlite3
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating System files
+.DS_Store
+Thumbs.db
